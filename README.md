@@ -1,1 +1,1 @@
-# General-Information-Disclosure-and-Missing-HTTP-Security-Header-Misconfiguration-Tool
+# General-Information-Disclosure-and-HTTP-Security-Header-Misconfiguration-Tool
