@@ -11,7 +11,7 @@ and then forget to turn off that disclosure in the actual use condition (Product
 
 Using HTTP Security Header: It is a feature that enhances the security of web applications. Helps users protect against threats from attackers It has the following features:
 
-   -X-Content-Type-Options: This header is used to prevent attacks through MIME type sniffing, which occurs when a website allows users to upload content to the server, and users can change 
+   -X-Content-Type-Options:It is used to protect against attacks through MIME analysis., which occurs when a website allows users to upload content to the server, and users can change 
     or hide files that may be malicious and then upload them to the server.
    -Content-Security-Policy: This header helps define the source of content that is allowed for a website by restricting the content that a browser can load, such as JavaScript and CSS.
    -Strict-Transport-Security: This header sets the browser to always use HTTPS, even if the user initially entered an HTTP URL. It enforces a secure connection by specifying that HTTP 
