@@ -6,10 +6,10 @@ This function sets up an option parser to accept a URL using the '-u' or '--url'
 It parses the command-line arguments, and if the URL is provided, it returns it.
 Get the URL from the command-line arguments
 
-Often people who set up servers expose too much information in the UAT environment.
+# Often people who set up servers expose too much information in the UAT environment.
 and then forget to turn off that disclosure in the actual use condition (Production Environment), allowing users to know the technology and version numbers of the tools used in website development And it allows attackers to use this information along with other information on the system to attack web applications through Common Vulnerabilities and Exposures (CVE).
 
-# Using HTTP Security Header: It is a feature that enhances the security of web applications. Helps users protect against threats from attackers It has the following features:
+Using HTTP Security Header: It is a feature that enhances the security of web applications. Helps users protect against threats from attackers It has the following features:
 
    -X-Content-Type-Options: This header is used to prevent attacks through MIME type sniffing, which occurs when a website allows users to upload content to the server, and users can change 
     or hide files that may be malicious and then upload them to the server.
@@ -20,7 +20,7 @@ and then forget to turn off that disclosure in the actual use condition (Product
     not malicious.
    -Referrer-Policy: This header is a new format that helps websites control the data collected by the browser along with document references. Every website should configure this setting.
  
-This function sets up an option parser to accept a URL using the '-u' or '--url' option.
+# This function sets up an option parser to accept a URL using the '-u' or '--url' option.
 It parses the command-line arguments, and if the URL is provided, it returns it.
 Get the URL from the command-line arguments
 
